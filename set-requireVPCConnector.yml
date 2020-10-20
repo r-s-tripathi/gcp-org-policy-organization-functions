@@ -1,3 +1,4 @@
-booleanPolicy:
-  enforced: true
 constraint: constraints/cloudfunctions.requireVPCConnector
+listPolicy:
+  allowedValues:
+  - All
